@@ -65,8 +65,7 @@ trait BootstrapTrait {
 	 * @param string $ver
 	 * @return bool|string
 	 */
-	protected static function parseVer($ver) {
-		$ver = (string)$ver;
+	protected static function parseVer(string $ver):bool|string {
 		return substr(trim($ver), 0, 1);
 	}
 

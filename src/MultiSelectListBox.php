@@ -32,6 +32,9 @@ class MultiSelectListBox extends MultiSelect {
 	public string $selectableFilter = "<input type='text' class='selectable-filter-input' autocomplete='off'>";
 	public string $selectionFilter = "<input type='text' class='selection-filter-input' autocomplete='off'>";
 
+	/**
+	 * @return void
+	 */
 	protected function registerPlugin():void {
 		$view = $this->getView();
 

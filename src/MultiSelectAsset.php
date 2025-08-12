@@ -28,6 +28,9 @@ class MultiSelectAsset extends AssetBundle {
 		'css/bootstrap-multiselect.css'
 	];
 
+	/**
+	 * @inheritDoc
+	 */
 	public function init():void {
 		$this->depends = $this->isBs4()
 			?['yii\bootstrap4\BootstrapPluginAsset']
